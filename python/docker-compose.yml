@@ -1,0 +1,22 @@
+# ==========================================
+# MODULE: DOCKER COMPOSE ORCHESTRATION
+# PURPOSE: Full stack configuration supporting SQLite/PostgreSQL
+# ==========================================
+
+version: '3.8'
+
+services:
+  telegram_cms:
+    build: .
+    container_name: telegram_bot_cms
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - JWT_SECRET=my_custom_vps_jwt_secret_token_2026
+      - DATABASE_URL=sqlite:///./bot_cms_database.db
+      - TELEGRAM_BOT_TOKEN=YOUR_REAL_TELEGRAM_BOT_TOKEN_HERE
+      - POINTS_PER_REFERRAL=3
+      - MAX_REFERRALS=100
+    volumes:
+      - ./data:/app/data

@@ -1,0 +1,6 @@
+{
+  "name": "Telegram Bot CMS",
+  "description": "A dynamic management system and web admin panel for custom Telegram bots with modular CMS, points, scheduler, and broadcast features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

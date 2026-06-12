@@ -1,0 +1,832 @@
+{
+  "users": [
+    {
+      "id": "usr_1781116574693_118",
+      "telegramId": "8862272621",
+      "username": "User_2621",
+      "firstName": "s",
+      "points": 3,
+      "referralsCount": 1,
+      "joinedAt": "2026-06-10T18:36:14.693Z",
+      "lastActive": "2026-06-12T08:45:56.733Z",
+      "status": "active",
+      "lastDailyRewardClaim": "2026-06-11T09:47:24.577Z"
+    },
+    {
+      "id": "usr_1781116824738_254",
+      "telegramId": "8261320156",
+      "username": "ManKabir_am",
+      "firstName": "K",
+      "points": 7,
+      "referralsCount": 0,
+      "joinedAt": "2026-06-10T18:40:24.738Z",
+      "lastActive": "2026-06-11T16:19:51.331Z",
+      "status": "active"
+    },
+    {
+      "id": "usr_1781171459060_773",
+      "telegramId": "7776853180",
+      "username": "sepix_am",
+      "firstName": "Sepehr",
+      "points": 1,
+      "referralsCount": 0,
+      "joinedAt": "2026-06-11T09:50:59.060Z",
+      "lastActive": "2026-06-11T11:22:58.022Z",
+      "status": "active",
+      "referredBy": "8862272621",
+      "lastDailyRewardClaim": "2026-06-11T09:54:55.543Z"
+    }
+  ],
+  "buttons": [
+    {
+      "id": "btn_3",
+      "name": "ارتباط با پشتیبانی 📢",
+      "parentId": null,
+      "requiredPoints": 0,
+      "buttonType": "content",
+      "content": "🙋🏻لطفا سوال و یا مشکلات خود را با ما به اشتراک بگذارید تا در اسرع وقت به شما پاسخ دهیم 🙋🏻",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 3,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "formTitle": "",
+      "formPrompt": "",
+      "formSubmitText": "",
+      "formStepsCount": 1,
+      "step1Title": "",
+      "step1Prompt": "",
+      "step2Title": "",
+      "step2Prompt": "",
+      "step3Title": "",
+      "step3Prompt": "",
+      "step4Title": "",
+      "step4Prompt": ""
+    },
+    {
+      "id": "btn_cod_1",
+      "name": "اکانت پرمیوم ایکس باکس",
+      "parentId": "btn_1",
+      "requiredPoints": 5,
+      "buttonType": "content",
+      "content": "🎮 مشخصات اکانت پرمیوم ایکس باکس:\n📧 ایمیل: cod_xbox_premium_01@outlook.com\n🔑 رمز عبور: PremiumGamer2026\n⭐ وضعیت: لول ۱۵۰ + اسکین‌های ابسیدین کامو فعال",
+      "status": "enabled",
+      "visibility": "restricted",
+      "order": 1
+    },
+    {
+      "id": "btn_cod_2",
+      "name": "اکانت الیت پلی استیشن",
+      "parentId": "btn_1",
+      "requiredPoints": 8,
+      "buttonType": "content",
+      "content": "🎮 مشخصات اکانت الیت پلی استیشن (PSN):\n📧 ایمیل: cod_psn_elite_99@gmail.com\n🔑 رمز عبور: EliteSniper998\n⭐ وضعیت: بتل پس فصل ۵ فعال + دمشق آنلاک شده",
+      "status": "enabled",
+      "visibility": "restricted",
+      "order": 2
+    },
+    {
+      "id": "btn_cod_3",
+      "name": "اکانت اکتویژن پی‌سی",
+      "parentId": "btn_1",
+      "requiredPoints": 12,
+      "buttonType": "content",
+      "content": "🎮 مشخصات اکانت اکتویژن مخصوص کامپیوتر:\n📧 ایمیل: cod_pc_activision_master@proton.me\n🔑 رمز عبور: MasterPCGod99!!\n⭐ وضعیت: دارک متر الترا فعال + لول ۲۵۰ پرستیژ کامل",
+      "status": "enabled",
+      "visibility": "restricted",
+      "order": 3
+    },
+    {
+      "id": "btn_tut_1",
+      "name": "راهنمای کسب امتیاز",
+      "parentId": "btn_2",
+      "requiredPoints": 0,
+      "buttonType": "content",
+      "content": "📈 روش جمع‌آوری سریع امتیاز:\n۱. لینک دعوت اختصاصی خود را کپی کنید.\n۲. آن را در گروه‌های تلگرامی یا شبکه‌های اجتماعی بفرستید.\n۳. هر کاربری که با لینک شما وارد ربات شود، ۳ امتیاز به شما اضافه می‌شود!\n۴. از امتیازها برای باز کردن رایگان اکانت‌های بالا استفاده کنید.",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1
+    },
+    {
+      "id": "btn_tut_2",
+      "name": "امنیت تغییر ایمیل",
+      "parentId": "btn_2",
+      "requiredPoints": 3,
+      "buttonType": "content",
+      "content": "🔒 آموزش امنیت اکانت:\nبه محض دریافت مشخصات اکانت، حتما رمز عبور را تغییر دهید و تایید دو مرحله‌ای یا شماره موبایل جدید متصل کنید تا مانع بازیابی اکانت شوید.",
+      "status": "enabled",
+      "visibility": "restricted",
+      "order": 2
+    },
+    {
+      "id": "btn_1781117205228",
+      "name": "اکانت رایگان 🎁",
+      "parentId": null,
+      "requiredPoints": 0,
+      "buttonType": "submenu",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": ""
+    },
+    {
+      "id": "btn_1781117229709",
+      "name": "اکانت نیم سیف",
+      "parentId": "btn_1781117205228",
+      "requiredPoints": 3,
+      "buttonType": "submenu",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": ""
+    },
+    {
+      "id": "btn_1781117249832",
+      "name": "اکانت سیف ",
+      "parentId": "btn_1781117205228",
+      "requiredPoints": 5,
+      "buttonType": "submenu",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": ""
+    },
+    {
+      "id": "btn_1781117338452",
+      "name": "دریافت اکانت نیم سیف",
+      "parentId": "btn_1781117229709",
+      "requiredPoints": 0,
+      "buttonType": "content",
+      "content": "اکانتی در حال حاضر برای دریافت موجود نمی باشد!",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": ""
+    },
+    {
+      "id": "btn_1781117371863",
+      "name": "دریافت اکانت سیف",
+      "parentId": "btn_1781117249832",
+      "requiredPoints": 0,
+      "buttonType": "content",
+      "content": "در حال حاضر اکانتی برای نمیاش وجود ندارد!",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": ""
+    },
+    {
+      "id": "btn_1781172369486",
+      "name": "چنج انواع اکانت 🛡️",
+      "parentId": null,
+      "requiredPoints": 0,
+      "buttonType": "submenu",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "",
+      "formPrompt": "",
+      "formSubmitText": "",
+      "formStepsCount": 1,
+      "step1Title": "",
+      "step1Prompt": "",
+      "step2Title": "",
+      "step2Prompt": "",
+      "step3Title": "",
+      "step3Prompt": "",
+      "step4Title": "",
+      "step4Prompt": ""
+    },
+    {
+      "id": "btn_1781172854645",
+      "name": "اکانت سیف 🔐",
+      "parentId": "btn_1781172369486",
+      "requiredPoints": 1,
+      "buttonType": "input_form",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 13,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "ارسال اطلاعات اکانت برای چنج",
+      "formPrompt": "1",
+      "formSubmitText": "تایید رمز و جیمیل",
+      "formStepsCount": 4,
+      "step1Title": "جیمیل اکانت سیف :",
+      "step1Prompt": "لطفا تنها جیمیل اکانت سیف را وارد کنید :",
+      "step2Title": "پسوورد اکانت سیف :",
+      "step2Prompt": "لطفا تنها پسوورد اکانت سیف را وارد کنید :",
+      "step3Title": "جیمیل اکانتی برای چنج بر روی آن :",
+      "step3Prompt": "لطفا تنها جیمیل اکانتی را وارد کنید که قرار است بر روی ان چنج شود :",
+      "step4Title": "پسوورد مورد نظر برای تغییر رمز به آن :",
+      "step4Prompt": "لطفا تنها پسوورد مورد نظر برای تغییر رمز به آن را وارد کنید :"
+    },
+    {
+      "id": "btn_1781173874395",
+      "name": "چنج اکانت نیم سیف 🪪",
+      "parentId": "btn_1781172369486",
+      "requiredPoints": 2,
+      "buttonType": "input_form",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "ارسال اطلاعات اکانت برای چنج",
+      "formPrompt": "2",
+      "formSubmitText": "تایید رمز و جیمیل",
+      "formStepsCount": 4,
+      "step1Title": "جیمیل اکانت نیم سیف :",
+      "step1Prompt": "❗لطفا تنها جیمیل اکانت سیف خود را ارسال کنید❗",
+      "step2Title": "پسوورد اکانت نیم سیف :",
+      "step2Prompt": "❗لطفا تنها پسوورد اکانت سیف خودرا ارسال کنید❗",
+      "step3Title": "جیمیل اکانتی برای چنج بر روی آن :",
+      "step3Prompt": "❗لطفا تنها ، جیمیل اکانتی را وارد کنید که اکانت قرار است بر روی ان چنج شود ❗",
+      "step4Title": "پسوورد مورد نظر برای تغییر رمز به آن :",
+      "step4Prompt": "❗لطفا تنها پسوورد مورد نظر برای تغییر رمز به آن را وارد کنید❗"
+    },
+    {
+      "id": "btn_1781174347547",
+      "name": "چنج اکانت کرکی 🛅",
+      "parentId": "btn_1781172369486",
+      "requiredPoints": 3,
+      "buttonType": "input_form",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "ارسال اطلاعات اکانت برای چنج",
+      "formPrompt": "3",
+      "formSubmitText": "تایید رمز و جیمیل",
+      "formStepsCount": 4,
+      "step1Title": "جیمیل اکانت کرک :",
+      "step1Prompt": "❗لطفا تنها جیمیل اکانت کرک خود را ارسال کنید❗",
+      "step2Title": "پسوورد اکانت کرک :",
+      "step2Prompt": "❗لطفا تنها پسوورد اکانت کرک را وارد کنید ❗",
+      "step3Title": "جیمیل اکانتی برای چنج بر روی آن :",
+      "step3Prompt": "❗لطفا تنها ، جیمیل اکانتی را وارد کنید که اکانت کرک قرار است بر روی ان چنج شود ❗",
+      "step4Title": "پسوورد مورد نظر برای تغییر رمز به آن :",
+      "step4Prompt": "❗لطفا تنها پسوورد مورد نظر برای تغییر رمز به آن را ارسال کنید❗"
+    },
+    {
+      "id": "btn_1781174412401",
+      "name": "سی پی رایگان 🪙",
+      "parentId": null,
+      "requiredPoints": 0,
+      "buttonType": "submenu",
+      "content": "",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "",
+      "formPrompt": "",
+      "formSubmitText": "",
+      "formStepsCount": 1,
+      "step1Title": "",
+      "step1Prompt": "",
+      "step2Title": "",
+      "step2Prompt": "",
+      "step3Title": "",
+      "step3Prompt": "",
+      "step4Title": "",
+      "step4Prompt": ""
+    },
+    {
+      "id": "btn_1781174566305",
+      "name": "80 سی پی 🪙",
+      "parentId": "btn_1781174412401",
+      "requiredPoints": 5,
+      "buttonType": "content",
+      "content": "❗لطفا عدد 80 را به پشتیبانی ارسال کنید تا باقی مراحل را برای دریافت سی پی انجام دهند ❗",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "",
+      "formPrompt": "",
+      "formSubmitText": "",
+      "formStepsCount": 1,
+      "step1Title": "",
+      "step1Prompt": "",
+      "step2Title": "",
+      "step2Prompt": "",
+      "step3Title": "",
+      "step3Prompt": "",
+      "step4Title": "",
+      "step4Prompt": ""
+    },
+    {
+      "id": "btn_1781174702038",
+      "name": "160 سی پی 💰",
+      "parentId": "btn_1781174412401",
+      "requiredPoints": 9,
+      "buttonType": "content",
+      "content": "❗️لطفا عدد 160 را به پشتیبانی ارسال کنید تا باقی مراحل را برای دریافت سی پی انجام دهند ❗️",
+      "status": "enabled",
+      "visibility": "public",
+      "order": 1,
+      "linkUrl": "",
+      "mediaType": "text",
+      "mediaUrl": "",
+      "inputPrompt": "",
+      "inputTarget": "",
+      "formTitle": "",
+      "formPrompt": "",
+      "formSubmitText": "",
+      "formStepsCount": 1,
+      "step1Title": "",
+      "step1Prompt": "",
+      "step2Title": "",
+      "step2Prompt": "",
+      "step3Title": "",
+      "step3Prompt": "",
+      "step4Title": "",
+      "step4Prompt": ""
+    }
+  ],
+  "forcedJoin": [
+    {
+      "id": "fj_1781171570325",
+      "type": "group",
+      "title": "گروه گفت و گو",
+      "chatId": "@sepixbot1",
+      "inviteLink": "https://t.me/sepixbot1",
+      "status": "active",
+      "addAfterHours": null,
+      "removeAfterHours": null,
+      "activateAt": null,
+      "deactivateAt": null,
+      "createdAt": "2026-06-11T09:52:50.325Z"
+    },
+    {
+      "id": "fj_1781171672675",
+      "type": "channel",
+      "title": "کانال اطلاع رسانی",
+      "chatId": "@ircodmfree",
+      "inviteLink": "https://t.me/ircodmfree",
+      "status": "active",
+      "addAfterHours": null,
+      "removeAfterHours": null,
+      "activateAt": null,
+      "deactivateAt": null,
+      "createdAt": "2026-06-11T09:54:32.675Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt_1",
+      "telegramId": "987654321",
+      "username": "gamer_pro",
+      "firstName": "الکس پرو",
+      "status": "resolved",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "سلام، رمز عبور اکانت الیت پلی‌استیشن نامعتبره. میشه لطفا راهنمایی کنید؟",
+          "timestamp": "2026-06-10T17:36:12.678Z"
+        },
+        {
+          "sender": "admin",
+          "text": "کیر",
+          "timestamp": "2026-06-11T10:26:06.727Z"
+        }
+      ],
+      "createdAt": "2026-06-10T17:36:12.678Z",
+      "updatedAt": "2026-06-11T10:26:10.844Z"
+    },
+    {
+      "id": "tkt_2",
+      "telegramId": "223344556",
+      "username": "cod_ninja",
+      "firstName": "مارکوس نینجا",
+      "status": "resolved",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "سلام چطوری میتونم دوستام رو دعوت کنم؟",
+          "timestamp": "2026-06-09T18:36:12.678Z"
+        },
+        {
+          "sender": "admin",
+          "text": "سلام! روی دکمه /start بزنید، لینک اختصاصی دعوتتان را کپی کرده و به دوستانتان بفرستید.",
+          "timestamp": "2026-06-09T19:36:12.678Z"
+        },
+        {
+          "sender": "user",
+          "text": "خیلی ممنون، درست شد!",
+          "timestamp": "2026-06-09T20:36:12.678Z"
+        }
+      ],
+      "createdAt": "2026-06-09T18:36:12.678Z",
+      "updatedAt": "2026-06-10T18:39:18.562Z"
+    },
+    {
+      "id": "tkt_1781116892701_24",
+      "telegramId": "8261320156",
+      "username": "ManKabir_am",
+      "firstName": "K",
+      "status": "resolved",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "سلام",
+          "timestamp": "2026-06-10T18:41:32.701Z"
+        },
+        {
+          "sender": "admin",
+          "text": "بفرمایید",
+          "timestamp": "2026-06-10T18:41:42.087Z"
+        },
+        {
+          "sender": "user",
+          "text": "لطف خروج",
+          "timestamp": "2026-06-10T18:41:52.366Z"
+        }
+      ],
+      "createdAt": "2026-06-10T18:41:32.701Z",
+      "updatedAt": "2026-06-10T18:42:12.461Z"
+    },
+    {
+      "id": "tkt_1781173336415_41",
+      "telegramId": "8862272621",
+      "username": "User_2621",
+      "firstName": "s",
+      "status": "resolved",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "سلام\nچرا درخواستم رد شد",
+          "timestamp": "2026-06-11T10:22:16.415Z"
+        },
+        {
+          "sender": "admin",
+          "text": "با سلام",
+          "timestamp": "2026-06-11T10:22:33.962Z"
+        },
+        {
+          "sender": "admin",
+          "text": "با سلام",
+          "timestamp": "2026-06-11T10:22:40.519Z"
+        },
+        {
+          "sender": "user",
+          "text": "ب",
+          "timestamp": "2026-06-11T10:24:43.306Z"
+        },
+        {
+          "sender": "admin",
+          "text": "با سلام کاربر عزیز شما باید ابتدا از صحت اکانت مورد نظر مطمعن شده و سپس ارسال کنید زیرا ربات هنگام چک کردن جیمیل و پسوورد متوجه شد اکانت شما وجود ندارد",
+          "timestamp": "2026-06-11T10:24:51.180Z"
+        }
+      ],
+      "createdAt": "2026-06-11T10:22:16.415Z",
+      "updatedAt": "2026-06-11T10:25:33.142Z"
+    },
+    {
+      "id": "tkt_1781175198123_3",
+      "telegramId": "8862272621",
+      "username": "User_2621",
+      "firstName": "s",
+      "status": "resolved",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "ov,[",
+          "timestamp": "2026-06-11T10:53:18.123Z"
+        }
+      ],
+      "createdAt": "2026-06-11T10:53:18.123Z",
+      "updatedAt": "2026-06-11T10:53:25.572Z"
+    }
+  ],
+  "broadcasts": [
+    {
+      "id": "bc_1",
+      "type": "text",
+      "content": "🚨 اکانت‌های جدید پلی‌استیشن امروز ساعت ۱۸:۰۰ به وقت ایران اضافه میشن! امتیازات خودتون رو افزایش بدین!",
+      "target": "all",
+      "successCount": 4,
+      "failureCount": 0,
+      "sentAt": "2026-06-08T18:36:12.678Z"
+    },
+    {
+      "id": "bc_1781117538371",
+      "type": "text",
+      "content": "سلاممممم",
+      "mediaUrl": "",
+      "target": "all",
+      "successCount": 2,
+      "failureCount": 3,
+      "sentAt": "2026-06-10T18:52:18.371Z"
+    },
+    {
+      "id": "bc_1781172283525",
+      "type": "text",
+      "content": "این یک پیام تست است",
+      "mediaUrl": "",
+      "target": "all",
+      "successCount": 3,
+      "failureCount": 4,
+      "sentAt": "2026-06-11T10:04:43.525Z",
+      "status": "completed",
+      "totalTarget": 7,
+      "processedCount": 7,
+      "remainingTargets": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_1",
+      "name": "بررسی تبلیغات زمان‌بندی شده کانال",
+      "triggerAt": "2026-06-11T06:36:12.678Z",
+      "action": "add_channel",
+      "payload": {
+        "title": "کانال ترفندهای ویژه کال‌آف‌دیوتی",
+        "chatId": "@cod_premium_hacks",
+        "inviteLink": "https://t.me/cod_premium_hacks"
+      },
+      "status": "pending"
+    }
+  ],
+  "media": [
+    {
+      "id": "med_1",
+      "fileName": "cod_banner.jpg",
+      "fileType": "image/jpeg",
+      "fileSize": "245 KB",
+      "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop",
+      "createdAt": "2026-06-10T18:36:12.678Z"
+    }
+  ],
+  "settings": {
+    "telegramToken": "8703626569:AAHMp8FgHmBu31Ig7VJyEbC8yjayQS5EJbw",
+    "pointsPerReferral": 1,
+    "maxReferrals": 10000,
+    "referralRewardThreshold": 1,
+    "welcomeMessage": "سلام دوست عزیز 👋\n\n\n🎮 به ربات خدمات کالاف دیوتی موبایل خوش آمدید 🎮\n\n🌟 امنیت، سرعت و رضایت شما اولویت ماست.\n\nبرای شروع، از منوی زیر گزینه مورد نظر خودت رو انتخاب کن و از خدمات ما استفاده کن.",
+    "unauthorizedPointsMessage": "⚠️ شما امتیاز کافی برای استفاده از این مورد را ندارید❗\nبرای دریافت امتیاز رایگان، دوستان خود را با لینک اختصاصی‌تان دعوت کنید و یا میتوناید هر روز امتیاز رایگان حود را دریافت کنید.",
+    "forcedJoinMessage": "📢 برای استفاده از این ربات، ابتدا باید عضو کانال‌های ما شوید❗\n دکمه‌های عضویت زیر را لمس کرده و عضو شوید، سپس روی دکمه تایید عضویت کلیک کنید.",
+    "botName": "خدمات کالاف موبایل",
+    "botUsername": "ircodmfreebot",
+    "dailyRewardEnabled": true,
+    "dailyRewardPoints": 1
+  },
+  "adminPasswordHash": "$2b$10$2MStaa1389TEHv4PMQWfGeBAgdnQW6t/zRLcwTjSvsIaa9.fJOv6a",
+  "privateMessages": [
+    {
+      "id": "pm_1781171867004",
+      "targetType": "telegramId",
+      "targetValue": "7776853180",
+      "resolvedTelegramId": "7776853180",
+      "type": "text",
+      "content": "سلام کاربر عزیز\nربات دارای مشکل خاصی بود\nبه دلیل کم نشدن امتیاز از شما نمیتوانست اکانت در خواستی شمارا چنج کند\nاما تیم پشتیبانی امتیاز شمارا کم کرد و در حال چنج اکانت است\nبا تشکر",
+      "status": "Sent",
+      "sentAt": "2026-06-11T09:57:47.004Z"
+    }
+  ],
+  "dailyClaims": [
+    {
+      "id": "clm_1781171244577",
+      "telegramId": "8862272621",
+      "username": "User_2621",
+      "pointsClaimed": 1,
+      "claimedAt": "2026-06-11T09:47:24.577Z"
+    },
+    {
+      "id": "clm_1781171695543",
+      "telegramId": "7776853180",
+      "username": "sepix_am",
+      "pointsClaimed": 1,
+      "claimedAt": "2026-06-11T09:54:55.543Z"
+    }
+  ],
+  "userRequests": [],
+  "pointSpendLogs": [
+    {
+      "id": "pt_log_1781167292691_687",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 3,
+      "buttonId": "btn_1781117229709",
+      "buttonName": "اکانت نیم سیف",
+      "timestamp": "2026-06-11T08:41:32.691Z"
+    },
+    {
+      "id": "pt_log_1781167433461_278",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 5,
+      "buttonId": "btn_1781117249832",
+      "buttonName": "اکانت سیف ",
+      "timestamp": "2026-06-11T08:43:53.461Z"
+    },
+    {
+      "id": "pt_log_1781171904444_573",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "7776853180",
+      "username": "sepix_am",
+      "pointsSpent": 3,
+      "buttonId": "btn_1781117229709",
+      "buttonName": "اکانت نیم سیف",
+      "timestamp": "2026-06-11T09:58:24.444Z"
+    },
+    {
+      "id": "pt_log_1781172012377_991",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "7776853180",
+      "username": "sepix_am",
+      "pointsSpent": 1,
+      "buttonId": "btn_1781167917966",
+      "buttonName": "چنج انواع اکانت",
+      "timestamp": "2026-06-11T10:00:12.377Z"
+    },
+    {
+      "id": "pt_log_1781173132176_52",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 1,
+      "buttonId": "btn_1781172854645",
+      "buttonName": "اکانت سیف 🔐",
+      "timestamp": "2026-06-11T10:18:52.176Z"
+    },
+    {
+      "id": "pt_log_1781173912753_608",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 2,
+      "buttonId": "btn_1781173874395",
+      "buttonName": "چنج اکانت نیم سیف 🪪",
+      "timestamp": "2026-06-11T10:31:52.753Z"
+    },
+    {
+      "id": "pt_log_1781174375127_135",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 3,
+      "buttonId": "btn_1781174347547",
+      "buttonName": "چنج اکانت کرکی 🛅",
+      "timestamp": "2026-06-11T10:39:35.127Z"
+    },
+    {
+      "id": "pt_log_1781174577481_980",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8862272621",
+      "username": "s",
+      "pointsSpent": 5,
+      "buttonId": "btn_1781174566305",
+      "buttonName": "80 سی پی 🪙",
+      "timestamp": "2026-06-11T10:42:57.481Z"
+    },
+    {
+      "id": "pt_log_1781194787681_942",
+      "type": "POINT_SPEND_SUCCESS",
+      "telegramId": "8261320156",
+      "username": "ManKabir_am",
+      "pointsSpent": 3,
+      "buttonId": "btn_1781117229709",
+      "buttonName": "اکانت نیم سیف",
+      "timestamp": "2026-06-11T16:19:47.681Z"
+    }
+  ],
+  "inputFormSubmissions": [],
+  "botNotificationLogs": [
+    {
+      "id": "notif_log_1781167957271_94",
+      "telegramId": "8862272621",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T08:52:37.271Z"
+    },
+    {
+      "id": "notif_log_1781167959778_765",
+      "telegramId": "8862272621",
+      "message": "🟡 درخواست شما توسط ادمین در حال بررسی است.",
+      "status": "success",
+      "timestamp": "2026-06-11T08:52:39.778Z"
+    },
+    {
+      "id": "notif_log_1781167964477_186",
+      "telegramId": "8862272621",
+      "message": "🟢 درخواست شما توسط ادمین تکمیل شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T08:52:44.477Z"
+    },
+    {
+      "id": "notif_log_1781171728205_637",
+      "telegramId": "7776853180",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T09:55:28.205Z"
+    },
+    {
+      "id": "notif_log_1781171762684_788",
+      "telegramId": "7776853180",
+      "message": "🟡 درخواست شما توسط ادمین در حال بررسی است.",
+      "status": "success",
+      "timestamp": "2026-06-11T09:56:02.684Z"
+    },
+    {
+      "id": "notif_log_1781172026472_921",
+      "telegramId": "7776853180",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:00:26.472Z"
+    },
+    {
+      "id": "notif_log_1781172029531_212",
+      "telegramId": "7776853180",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:00:29.531Z"
+    },
+    {
+      "id": "notif_log_1781172037916_121",
+      "telegramId": "7776853180",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:00:37.916Z"
+    },
+    {
+      "id": "notif_log_1781172041539_513",
+      "telegramId": "8862272621",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:00:41.539Z"
+    },
+    {
+      "id": "notif_log_1781173149583_287",
+      "telegramId": "8862272621",
+      "message": "🟡 درخواست شما توسط ادمین در حال بررسی است.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:19:09.583Z"
+    },
+    {
+      "id": "notif_log_1781173304779_40",
+      "telegramId": "8862272621",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:21:44.779Z"
+    },
+    {
+      "id": "notif_log_1781174052826_112",
+      "telegramId": "8862272621",
+      "message": "🟢 درخواست شما توسط ادمین تکمیل شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:34:12.826Z"
+    },
+    {
+      "id": "notif_log_1781174616374_904",
+      "telegramId": "8862272621",
+      "message": "🔴 درخواست شما توسط ادمین رد شد.",
+      "status": "success",
+      "timestamp": "2026-06-11T10:43:36.374Z"
+    }
+  ]
+}
